@@ -41,8 +41,10 @@ To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 
 ## Create an Ingress
 
+* **NOTE**: Make sure you're in the `minikube` directory when completing these steps.
+
 ```bash
-$ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/master/deploy/mandatory.yaml
+$ kubectl apply -f ingress.yaml
 namespace/ingress-nginx created
 configmap/nginx-configuration created
 configmap/tcp-services created

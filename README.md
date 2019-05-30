@@ -190,7 +190,7 @@ kind: Deployment
 metadata:
   name: apple-deployment
 spec:
-  replicas: 5
+  replicas: 1
   selector:
     matchLabels:
       app: apple
@@ -223,7 +223,7 @@ kind: Deployment
 metadata:
   name: banana-deployment
 spec:
-  replicas: 5
+  replicas: 1
   selector:
     matchLabels:
       app: banana
