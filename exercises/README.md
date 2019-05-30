@@ -122,5 +122,5 @@ rm -r ~/.kube
 When done, you can delete the whole resource group by running the following command in cloud shell:
 
 ```bash
-az group delete k8sWorkshop
+az group delete --name k8sWorkshop
 ```
