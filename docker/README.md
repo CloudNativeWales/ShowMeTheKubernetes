@@ -20,8 +20,10 @@ To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 
 ## Create an Ingress
 
+* **NOTE**: Make sure you run the command in the `docker` folder.
+
 ```bash
-$ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/master/deploy/mandatory.yaml
+$ kubectl apply -f ingress.yaml
 namespace "ingress-nginx" created
 configmap "nginx-configuration" created
 configmap "tcp-services" created
