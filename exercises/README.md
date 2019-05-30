@@ -116,3 +116,11 @@ If you have issue regarding duplicate names that exist in aks, delete the kubeco
 ```bash
 rm -r ~/.kube
 ```
+
+## Delete your cluster
+
+When done, you can delete the whole resource group by running the following command in cloud shell:
+
+```bash
+az group delete k8sWorkshop
+```
